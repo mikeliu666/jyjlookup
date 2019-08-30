@@ -17,14 +17,14 @@ function lookup(sno)
 							rename.innerHTML=infomation.data.name;
 							id.innerHTML=infomation.data.cardNo;
 							amount.innerHTML=infomation.data.amount;
-							freeze.innerHTML=infomation.data.frozen=="0"?"·ñ":"ÊÇ";
+							freeze.innerHTML=infomation.data.frozen=="0"?"å¦":"æ˜¯";
 						}
 						else
 						{
 							rename.innerHTML=infomation.msg
 						}
                     }else{
-                    document.write("´íÎó£º"+xhr.status)
+                    alert("é”™è¯¯ï¼š"+xhr.status)
                     }
                 }
             }

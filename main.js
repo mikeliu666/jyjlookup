@@ -4,7 +4,7 @@ function lookup(sno)
 	var data=
 		'{"sno":"'+sno+'","userType":"0"}';
 	var xhr=new XMLHttpRequest();
-	xhr.open("post",'http://27.221.57.108:10009/app/cardInfo',true);
+	xhr.open("post",'27.221.57.108:10009/app/cardInfo',true);
 	xhr.setRequestHeader('content-type','application/json');
 	xhr.send(data);
 	xhr.onreadystatechange=function(){
